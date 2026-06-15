@@ -129,14 +129,17 @@ You can test the model with custom reviews:
 
 Score → Probability of Positive Sentiment
 Label → Positive / Negative
-
+```
 .
 ├── transformer_imdb.ipynb
 ├── IMDB Dataset.csv
 ├── training_curves.png
 ├── confusion_matrix.png
 └── README.md
-requirements:
+---
+
+## requirements:
+
 tensorflow
 numpy
 pandas
