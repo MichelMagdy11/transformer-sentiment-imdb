@@ -103,3 +103,43 @@ After training, the model is evaluated using:
 - Precision / Recall
 - F1 Score
 - Confusion Matrix
+
+  
+---
+
+## 📊 Visualizations
+
+- Training vs Validation Accuracy
+- Training vs Validation Loss
+- Confusion Matrix Heatmap
+
+Saved files:
+- `training_curves.png`
+- `confusion_matrix.png`
+
+---
+
+## 🔍 Inference Example
+
+You can test the model with custom reviews:
+
+```python
+"This movie was absolutely brilliant!"
+"Terrible waste of time. Very boring."
+
+Score → Probability of Positive Sentiment
+Label → Positive / Negative
+
+.
+├── transformer_imdb.ipynb
+├── IMDB Dataset.csv
+├── training_curves.png
+├── confusion_matrix.png
+└── README.md
+requirements:
+tensorflow
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
